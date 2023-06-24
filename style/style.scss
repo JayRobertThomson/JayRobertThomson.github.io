@@ -84,6 +84,22 @@ section {
     }
 }
 
+#languageSwitcher {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+  }
+  
+  .languageOption {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .languageOption.active {
+    font-weight: bold;
+  }
+
 //Controls
 .controls {
     position: fixed;
